@@ -49,7 +49,6 @@ docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --networ
 - Processes PDFs up to 50 pages
 - Execution time under 10 seconds per document
 docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --network none challenge1a:latest
-```
 
 The container automatically processes all PDFs from `/app/input` and generates corresponding JSON files in `/app/output`.
 
